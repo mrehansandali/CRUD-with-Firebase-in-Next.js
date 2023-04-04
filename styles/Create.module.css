@@ -1,0 +1,97 @@
+.mrloginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem 5rem;
+    font-family: sans-serif;
+    background-color: rgb(240, 241, 253);
+}
+.fullwidLI{
+    background-color: rgb(149, 164, 193);
+}
+.mrinputs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.2rem;
+}
+
+.mrinputs label {
+    font-size: 2rem;
+}
+
+.mrinputs input::placeholder {
+    font-size: 1.8rem;
+    color: #E2E8F0;
+}
+
+.mrinputs input {
+    font-size: 2rem;
+    width: 37rem;
+    height: 5vh;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    border: 1px solid #E2E8F0;
+}
+
+.logoimg {
+    margin-bottom: 2rem;
+    color: red;
+}
+
+
+.mrbtn a {
+    border: none;
+    font-size: 2rem;
+    background-color: #079e22;
+    color: white;
+    padding: 0.7rem 2rem;
+    border-radius: 1rem;
+    margin: 3rem 0;
+}
+
+
+
+
+
+
+@media (max-width:600px) {
+    .mrinputs {
+        margin-top: 1.5rem;
+        width: 90vw;
+    }
+    .mrinputs input {
+        width: auto;
+        height: 7vh;
+        padding: 0rem 1.5rem;
+        border: 2px solid grey;
+        font-size: 1.3rem;
+    }
+    .mrloginForm {
+        padding: 1rem 1.8rem;
+        height: 100vh;
+    }
+
+    .mrinputs label {
+        display: none;
+    }
+    .mrinputs input::placeholder {
+        font-size: 1.3rem;
+        color: rgb(186, 182, 182);
+    }
+    .logoimg {
+        margin: 0;
+    }
+    .mrbtn{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .mrbtn a {
+        margin: 0;
+        margin-top: 3rem;
+        font-size: 1.4rem;
+        border-radius: 0.5rem;
+    }
+}

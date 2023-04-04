@@ -1,0 +1,12 @@
+.mrcontainer .img img {
+    width: 30rem;
+    height: auto;
+}
+
+.mrcontainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}

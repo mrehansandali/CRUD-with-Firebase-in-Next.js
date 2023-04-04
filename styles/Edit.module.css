@@ -1,0 +1,64 @@
+.editForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+.editForm h1{
+    font-size: 3rem;
+}
+
+
+.mrinputs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.mrinputs input::placeholder {
+    font-size: 1.8rem;
+    color: #E2E8F0;
+}.mrinputs input {
+    font-size: 2rem;
+    width: 37rem;
+    height: 5vh;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.editbtn a{
+    padding: 0.5vw 2vw;
+    border-radius: 1.2rem;
+    background-color: rgb(128, 37, 255);
+    font-size: 2rem;
+    color: white;
+    border: none;
+}
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+    .mrinputs {
+        margin-top: 1.5rem;
+        width: 90vw;
+    }
+    .mrinputs input {
+        width: auto;
+        height: 7vh;
+        padding: 0rem 1.5rem;
+        border: 2px solid grey;
+    }.mrinputs input::placeholder {
+        font-size: 1.3rem;
+        color: rgb(186, 182, 182);
+    }
+    .editbtn a{
+        padding: 1vw 4vw;
+        font-size: 1.5rem;
+        border-radius: 8px;
+    }
+}

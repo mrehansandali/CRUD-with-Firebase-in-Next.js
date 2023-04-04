@@ -1,0 +1,121 @@
+.mrtable {
+    font-size: 1.5vw;
+    margin-top: 5%;
+}
+
+.searchInput {
+    position: relative;
+}
+
+.searchInput input {
+    width: 40rem;
+    font-size: 2rem;
+}
+
+.mrform .searchInput button {
+    color: grey;
+}
+
+.mrform .searchInput input::placeholder {
+    color: grey;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.mrsearchbtn {
+    font-size: 1.7rem;
+    position: absolute;
+    top: -2%;
+    right: 2%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.mrsearchField {
+    border: 0.01rem solid grey;
+    padding: 1rem 3.5rem 1rem 1.5rem;
+    font-size: 1rem;
+}
+
+.mrsearchbar {
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    background-color: rgb(65, 34, 206);
+}
+
+.updatebtn {
+    display: flex;
+}
+
+.updatebtn button {
+    padding: 0.4vw 1vw;
+    border-radius: 2rem;
+}
+
+.editbtn button {
+    font-size: 1.5vw;
+    border: 1px solid rgb(65, 34, 206);
+    color: rgb(65, 34, 206);
+}
+
+.delbtn button {
+    font-size: 1.5vw;
+    border: 1px solid red;
+    color: red;
+}
+
+.createbtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.createbtn a {
+    padding: 0.5vw 1vw;
+    border-radius: 10px;
+    background-color: rgb(128, 37, 255);
+    font-size: 1.5rem;
+    color: white;
+    border: none;
+}
+
+
+
+
+
+
+@media (max-width:600px) {
+    .mrsearchbar {
+        display: flex;
+        align-items: center;
+        height: 12vh;
+        background-color: rgb(65, 34, 206);
+    }
+
+    .searchInput input {
+        width: 20rem;
+        font-size: 1rem;
+    }
+
+    .mrsearchField {
+        padding: 1rem 3.5rem 1rem 1.5rem;
+    }
+
+    .mrform .searchInput input::placeholder {
+        font-size: 1.2rem;
+    }
+
+    .mrform .searchInput button {
+        font-size: 1.2rem;
+        right: 1rem;
+    }
+
+    .createbtn a {
+        padding: 1vw 3vw;
+        border-radius: 10px;
+        font-size: 1.2rem;
+    }
+}
